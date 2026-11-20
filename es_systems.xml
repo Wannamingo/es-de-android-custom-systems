@@ -359,6 +359,7 @@
         <extension>.iso .ISO .xiso .XISO .xbe .XBE</extension>
         <command label="X1 BOX (Standalone)">%EMULATOR_X1-BOX% %ACTION%=android.intent.action.VIEW %DATA%=%ROMSAF%</command>
         <command label="hakuX (Standalone)">%EMULATOR_HAKUX% %ACTION%=android.intent.action.VIEW %DATA%=%ROMSAF%</command>
+        <command label="BoxForever (Standalone)">%EMULATOR_HAKUX-MALI% %ACTION%=android.intent.action.VIEW %EXTRA_rom_path%="%ROMRAW%"</command>
         <command label="HakuX-Mali (Standalone)">%EMULATOR_HAKUX-MALI% %ACTION%=android.intent.action.VIEW %EXTRA_rom_path%="%ROMRAW%"</command>
         <command label="Xenra (Standalone)">%EMULATOR_XENRA% %DATA%=%ROMSAF%</command>
         <platform>xbox</platform>
